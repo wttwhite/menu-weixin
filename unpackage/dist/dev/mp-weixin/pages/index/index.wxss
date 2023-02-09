@@ -1,0 +1,38 @@
+
+.content {
+  display: flex;
+  height: 100%;
+}
+.left-sidebar {
+  width: 200rpx;
+  height: 100%;
+  font-size: 36rpx;
+  color: #8f8f94;
+  text-align: center;
+  background: #f6f6f8;
+}
+.left-li {
+  height: 40px;
+  line-height: 40px;
+  width: 100%;
+}
+.left-active {
+  color: #fff;
+  background: #3c3cd7;
+}
+.right-box {
+  padding: 8rpx;
+}
+.right-li {
+  text-align: center;
+  padding: 4rpx;
+}
+.right-img {
+  width: 100rpx;
+  height: 100rpx;
+}
+.modal-title {
+  font-size: 36rpx;
+  display: block;
+}
+
