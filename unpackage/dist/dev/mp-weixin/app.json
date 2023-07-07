@@ -1,6 +1,7 @@
 {
   "pages": [
-    "pages/index/index"
+    "pages/index/index",
+    "pages/type-page/index"
   ],
   "subPackages": [],
   "window": {
@@ -8,6 +9,19 @@
     "navigationBarTitleText": "uni-app",
     "navigationBarBackgroundColor": "#F8F8F8",
     "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "fontSize": "14px",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/type-page/index",
+        "text": "分类"
+      }
+    ]
   },
   "usingComponents": {}
 }

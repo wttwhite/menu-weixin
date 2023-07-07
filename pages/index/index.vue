@@ -1,50 +1,6 @@
 <template>
   <view class="content">
-    <!-- <view v-for="(item, index) in pageList" :key="index" class="li-box">
-      <image class="logo" src="/static/logo.png"></image>
-      <view class="title">名字</view>
-    </view> -->
-    <view class="left-sidebar">
-      <view
-        v-for="(item, index) in allList"
-        :key="index"
-        :class="['left-li', activeData.id === item.id && 'left-active']"
-        @click="leftLiClick(item)"
-      >
-        <view>{{ item.name }}</view>
-      </view>
-    </view>
-    <view class="right-box">
-      <view
-        v-for="(item, index) in rightData"
-        :key="index"
-        class="right-li"
-        @click="showModalClick(item)"
-      >
-        <image class="right-img" src="/static/logo.png"></image>
-        <view>{{ item.name }}</view>
-      </view>
-    </view>
-    <u-modal
-      :show="showModal"
-      :title="detailData.name"
-      :showConfirmButton="false"
-      :closeOnClickOverlay="true"
-    >
-      <view>
-        <view class="modal-title">材料</view>
-        <view>{{ detailData.material }}</view>
-        <view class="modal-title">调料</view>
-        <view>{{ detailData.seasoning }}</view>
-        <view class="modal-title">步骤</view>
-        <view
-          v-for="(val, index) in detailData.step"
-          :key="index"
-          class="model-step"
-          >{{ val }}</view
-        >
-      </view>
-    </u-modal>
+   首页
   </view>
 </template>
 
@@ -73,6 +29,9 @@ export default {
       this.detailData = item;
       this.showModal = true;
     },
+	closeModel() {
+		this.showModal = false
+	}
   },
 };
 </script>

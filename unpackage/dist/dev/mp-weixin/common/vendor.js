@@ -767,7 +767,7 @@ function populateParameters(result) {
   // wx.getAccountInfoSync
 
   var parameters = {
-    appId: "",
+    appId: "__UNI__A82323F",
     appName: "小程序",
     appVersion: "1.0.0",
     appVersionCode: "100",
@@ -866,7 +866,7 @@ var getAppBaseInfo = {
     var _hostName = getHostName(result);
     var hostLanguage = language.replace('_', '-');
     result = sortObject(Object.assign(result, {
-      appId: "",
+      appId: "__UNI__A82323F",
       appName: "小程序",
       appVersion: "1.0.0",
       appVersionCode: "100",
@@ -19135,13 +19135,13 @@ Object.defineProperty(exports, "__esModule", {
 exports.RightData = exports.AllList = void 0;
 var AllList = [{
   id: "1",
-  name: "类型一"
+  name: "凉菜"
 }, {
   id: "2",
-  name: "类型二"
+  name: "热菜"
 }, {
   id: "3",
-  name: "类型三"
+  name: "汤"
 }, {
   id: "4",
   name: "类型四"
@@ -19156,9 +19156,9 @@ exports.AllList = AllList;
 var RightData = {
   1: [{
     id: "11",
-    name: "aaa",
+    name: "葱油鸡腿肉",
     img: "",
-    material: "xxx 500g、xxx 100g、xxx 500g、xxx 100g",
+    material: "鸡腿 400g(3只)",
     seasoning: "xxx 500g、xxx 100g",
     step: ["1.xxxx", "2.xxxx"]
   }],
@@ -19208,7 +19208,97 @@ exports.RightData = RightData;
 /* 169 */,
 /* 170 */,
 /* 171 */,
-/* 172 */
+/* 172 */,
+/* 173 */
+/*!**********************************************************!*\
+  !*** D:/a-code-self/github/小程序/pages/type-page/const.js ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.RightData = exports.AllList = void 0;
+var AllList = [{
+  id: "1",
+  name: "凉菜"
+}, {
+  id: "2",
+  name: "热菜"
+}, {
+  id: "3",
+  name: "汤"
+}, {
+  id: "4",
+  name: "类型四"
+}, {
+  id: "5",
+  name: "类型五"
+}, {
+  id: "6",
+  name: "类型六"
+}];
+exports.AllList = AllList;
+var RightData = {
+  1: [{
+    id: "11",
+    name: "葱油鸡腿肉",
+    img: "",
+    material: "鸡腿 400g(3只)",
+    seasoning: "xxx 500g、xxx 100g",
+    step: ["1.xxxx", "2.xxxx"]
+  }],
+  2: [{
+    id: "22",
+    name: "bbb",
+    img: "",
+    material: "xxx 500g",
+    step: ["1.xxxx", "2.xxxx"]
+  }],
+  3: [{
+    id: "33",
+    name: "vvv",
+    img: "",
+    material: "xxx 500g",
+    step: ["1.xxxx", "2.xxxx"]
+  }],
+  4: [{
+    id: "44",
+    name: "eee",
+    img: "",
+    material: "xxx 500g",
+    step: ["1.xxxx", "2.xxxx"]
+  }],
+  5: [{
+    id: "55",
+    name: "555",
+    img: "",
+    material: "xxx 500g",
+    step: ["1.xxxx", "2.xxxx"]
+  }],
+  6: [{
+    id: "66",
+    name: "222",
+    img: "",
+    material: "xxx 500g",
+    step: ["1.xxxx", "2.xxxx"]
+  }]
+};
+exports.RightData = RightData;
+
+/***/ }),
+/* 174 */,
+/* 175 */,
+/* 176 */,
+/* 177 */,
+/* 178 */,
+/* 179 */,
+/* 180 */,
+/* 181 */
 /*!**********************************************************************************!*\
   !*** D:/a-code-self/github/小程序/uni_modules/uview-ui/components/u-modal/props.js ***!
   \**********************************************************************************/
@@ -19310,14 +19400,14 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 173 */,
-/* 174 */,
-/* 175 */,
-/* 176 */,
-/* 177 */,
-/* 178 */,
-/* 179 */,
-/* 180 */
+/* 182 */,
+/* 183 */,
+/* 184 */,
+/* 185 */,
+/* 186 */,
+/* 187 */,
+/* 188 */,
+/* 189 */
 /*!**********************************************************************************!*\
   !*** D:/a-code-self/github/小程序/uni_modules/uview-ui/components/u-popup/props.js ***!
   \**********************************************************************************/
@@ -19414,14 +19504,14 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 181 */,
-/* 182 */,
-/* 183 */,
-/* 184 */,
-/* 185 */,
-/* 186 */,
-/* 187 */,
-/* 188 */
+/* 190 */,
+/* 191 */,
+/* 192 */,
+/* 193 */,
+/* 194 */,
+/* 195 */,
+/* 196 */,
+/* 197 */
 /*!*********************************************************************************!*\
   !*** D:/a-code-self/github/小程序/uni_modules/uview-ui/components/u-line/props.js ***!
   \*********************************************************************************/
@@ -19472,14 +19562,14 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 189 */,
-/* 190 */,
-/* 191 */,
-/* 192 */,
-/* 193 */,
-/* 194 */,
-/* 195 */,
-/* 196 */
+/* 198 */,
+/* 199 */,
+/* 200 */,
+/* 201 */,
+/* 202 */,
+/* 203 */,
+/* 204 */,
+/* 205 */
 /*!*****************************************************************************************!*\
   !*** D:/a-code-self/github/小程序/uni_modules/uview-ui/components/u-loading-icon/props.js ***!
   \*****************************************************************************************/
@@ -19556,14 +19646,14 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 197 */,
-/* 198 */,
-/* 199 */,
-/* 200 */,
-/* 201 */,
-/* 202 */,
-/* 203 */,
-/* 204 */
+/* 206 */,
+/* 207 */,
+/* 208 */,
+/* 209 */,
+/* 210 */,
+/* 211 */,
+/* 212 */,
+/* 213 */
 /*!************************************************************************************!*\
   !*** D:/a-code-self/github/小程序/uni_modules/uview-ui/components/u-overlay/props.js ***!
   \************************************************************************************/
@@ -19605,14 +19695,14 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 205 */,
-/* 206 */,
-/* 207 */,
-/* 208 */,
-/* 209 */,
-/* 210 */,
-/* 211 */,
-/* 212 */
+/* 214 */,
+/* 215 */,
+/* 216 */,
+/* 217 */,
+/* 218 */,
+/* 219 */,
+/* 220 */,
+/* 221 */
 /*!***************************************************************************************!*\
   !*** D:/a-code-self/github/小程序/uni_modules/uview-ui/components/u-transition/props.js ***!
   \***************************************************************************************/
@@ -19654,7 +19744,7 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 213 */
+/* 222 */
 /*!********************************************************************************************!*\
   !*** D:/a-code-self/github/小程序/uni_modules/uview-ui/components/u-transition/transition.js ***!
   \********************************************************************************************/
@@ -19671,7 +19761,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 var _regenerator = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/regenerator */ 55));
 var _asyncToGenerator2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/asyncToGenerator */ 57));
-var _nvueAniMap = _interopRequireDefault(__webpack_require__(/*! ./nvue.ani-map.js */ 214));
+var _nvueAniMap = _interopRequireDefault(__webpack_require__(/*! ./nvue.ani-map.js */ 223));
 // 定义一个一定时间后自动成功的promise，让调用nextTick方法处，进入下一个then方法
 var nextTick = function nextTick() {
   return new Promise(function (resolve) {
@@ -19763,7 +19853,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 214 */
+/* 223 */
 /*!**********************************************************************************************!*\
   !*** D:/a-code-self/github/小程序/uni_modules/uview-ui/components/u-transition/nvue.ani-map.js ***!
   \**********************************************************************************************/
@@ -19956,14 +20046,14 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 215 */,
-/* 216 */,
-/* 217 */,
-/* 218 */,
-/* 219 */,
-/* 220 */,
-/* 221 */,
-/* 222 */
+/* 224 */,
+/* 225 */,
+/* 226 */,
+/* 227 */,
+/* 228 */,
+/* 229 */,
+/* 230 */,
+/* 231 */
 /*!***************************************************************************************!*\
   !*** D:/a-code-self/github/小程序/uni_modules/uview-ui/components/u-status-bar/props.js ***!
   \***************************************************************************************/
@@ -19989,14 +20079,14 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 223 */,
-/* 224 */,
-/* 225 */,
-/* 226 */,
-/* 227 */,
-/* 228 */,
-/* 229 */,
-/* 230 */
+/* 232 */,
+/* 233 */,
+/* 234 */,
+/* 235 */,
+/* 236 */,
+/* 237 */,
+/* 238 */,
+/* 239 */
 /*!*********************************************************************************!*\
   !*** D:/a-code-self/github/小程序/uni_modules/uview-ui/components/u-icon/icons.js ***!
   \*********************************************************************************/
@@ -20227,7 +20317,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 231 */
+/* 240 */
 /*!*********************************************************************************!*\
   !*** D:/a-code-self/github/小程序/uni_modules/uview-ui/components/u-icon/props.js ***!
   \*********************************************************************************/
@@ -20334,14 +20424,14 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 232 */,
-/* 233 */,
-/* 234 */,
-/* 235 */,
-/* 236 */,
-/* 237 */,
-/* 238 */,
-/* 239 */
+/* 241 */,
+/* 242 */,
+/* 243 */,
+/* 244 */,
+/* 245 */,
+/* 246 */,
+/* 247 */,
+/* 248 */
 /*!****************************************************************************************!*\
   !*** D:/a-code-self/github/小程序/uni_modules/uview-ui/components/u-safe-bottom/props.js ***!
   \****************************************************************************************/
